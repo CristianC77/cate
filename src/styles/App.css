@@ -1,0 +1,37 @@
+/* Estilos mejorados y vibrantes para la aplicación sin cambiar el código */
+.App {
+  text-align: center;
+  background-color: #f9c74f;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.div {
+  width: 25%;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
